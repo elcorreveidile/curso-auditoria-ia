@@ -3,64 +3,148 @@ export default function Bibliografia() {
     {
       titulo: 'Informes oficiales',
       items: [
-        'Ministerio de Economía, Comercio y Empresa (2025). Estudio de Prospeción Tecnológica en Inteligencia Artificial. 10 volúmenes, 1.800+ referencias. Volumen 8 (Ciberseguridad), Volumen 9 (IA, datos y competencia), Volumen 10 (Ética, gobernanza y regulación).',
+        {
+          texto: 'Ministerio de Economía, Comercio y Empresa (2025). Estudio de Prospeción Tecnológica en Inteligencia Artificial. 10 volúmenes, 1.800+ referencias. Volumen 8 (Ciberseguridad), Volumen 9 (IA, datos y competencia), Volumen 10 (Ética, gobernanza y regulación).',
+          href: 'https://www.lamoncloa.gob.es/es/areas-tematicas/prospeccion-tecnologica/Paginas/index.aspx',
+        },
       ],
     },
     {
       titulo: 'Normativa europea',
       items: [
-        'Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial (AI Act).',
-        'Reglamento (UE) 2016/679 (RGPD).',
-        'Directiva (UE) 2022/2555 (NIS2).',
+        {
+          texto: 'Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial (AI Act).',
+          href: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689',
+        },
+        {
+          texto: 'Reglamento (UE) 2016/679 (RGPD).',
+          href: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679',
+        },
+        {
+          texto: 'Directiva (UE) 2022/2555 (NIS2).',
+          href: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022L2555',
+        },
       ],
     },
     {
       titulo: 'Normativa española',
       items: [
-        'Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).',
-        'Real Decreto 311/2022 que regula el Esquema Nacional de Seguridad (ENS).',
-        'Estrategia Nacional de Inteligencia Artificial (ENIA 2024).',
-        'Agencia Española de Supervisión de la Inteligencia Artificial (AESIA) — guías técnicas.',
+        {
+          texto: 'Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).',
+          href: 'https://www.boe.es/eli/es/lo/2018/3/con',
+        },
+        {
+          texto: 'Real Decreto 311/2022 que regula el Esquema Nacional de Seguridad (ENS).',
+          href: 'https://www.boe.es/eli/es/rd/2022/311',
+        },
+        {
+          texto: 'Estrategia Nacional de Inteligencia Artificial (ENIA 2024).',
+          href: 'https://www.lamoncloa.gob.es/es/areas-tematicas/inteligencia_artificial/Paginas/enia-2024',
+        },
+        {
+          texto: 'Agencia Española de Supervisión de la Inteligencia Artificial (AESIA) — guías técnicas.',
+          href: 'https://www.aesia.es/',
+        },
       ],
     },
     {
       titulo: 'Normativa internacional',
       items: [
-        'Executive Order 14110 on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (EEUU, 2023).',
-        'NIST AI Risk Management Framework (AI RMF 1.0), 2023.',
-        'Interim Measures for the Administration of Generative Artificial Intelligence Services (China, 2023).',
-        'Deep Synthesis Provisions (China, 2022).',
-        'Regulation on Algorithmic Recommendation of Internet Information Services (China, 2022).',
+        {
+          texto: 'Executive Order 14110 on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (EEUU, 2023).',
+          href: 'https://www.whitehouse.gov/biden-harris-administration/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/',
+        },
+        {
+          texto: 'NIST AI Risk Management Framework (AI RMF 1.0), 2023.',
+          href: 'https://www.nist.gov/itl/ai-risk-management-framework',
+        },
+        {
+          texto: 'Interim Measures for the Administration of Generative Artificial Intelligence Services (China, 2023).',
+          href: 'https://www.cac.gov.cn/en/2023-07/13/interim-measures-for-the-management-of-generative-artificial-intelligence-services/',
+        },
+        {
+          texto: 'Deep Synthesis Provisions (China, 2022).',
+          href: 'https://www.cac.gov.cn/en/2022-12/11/provisions-on-deep-synthesis-for-internet-information-services/',
+        },
+        {
+          texto: 'Regulation on Algorithmic Recommendation of Internet Information Services (China, 2022).',
+          href: 'https://www.cac.gov.cn/en/2022-03/01/provisions-on-the-algorithmic-recommendation-for-online-information-services/',
+        },
       ],
     },
     {
       titulo: 'Estándares ISO',
       items: [
-        'ISO/IEC 42001:2023 — Sistemas de gestión de IA (AIMS).',
-        'ISO/IEC 23894:2023 — Gestión de riesgos de IA.',
-        'ISO/IEC 24368:2022 — Cuestiones éticas y sociales en IA.',
-        'ISO/IEC 22989:2022 — Conceptos y terminología de IA.',
-        'ISO/IEC 23053:2022 — Marco para sistemas de IA basados en ML.',
-        'ISO/IEC 25059:2023 — Modelo de calidad para sistemas de IA.',
+        {
+          texto: 'ISO/IEC 42001:2023 — Sistemas de gestión de IA (AIMS).',
+          href: 'https://www.iso.org/standard/81230.html',
+        },
+        {
+          texto: 'ISO/IEC 23894:2023 — Gestión de riesgos de IA.',
+          href: 'https://www.iso.org/standard/76977.html',
+        },
+        {
+          texto: 'ISO/IEC 24368:2022 — Cuestiones éticas y sociales en IA.',
+          href: 'https://www.iso.org/standard/76694.html',
+        },
+        {
+          texto: 'ISO/IEC 22989:2022 — Conceptos y terminología de IA.',
+          href: 'https://www.iso.org/standard/73972.html',
+        },
+        {
+          texto: 'ISO/IEC 23053:2022 — Marco para sistemas de IA basados en ML.',
+          href: 'https://www.iso.org/standard/71092.html',
+        },
+        {
+          texto: 'ISO/IEC 25059:2023 — Modelo de calidad para sistemas de IA.',
+          href: 'https://www.iso.org/standard/84045.html',
+        },
       ],
     },
     {
       titulo: 'Marcos de referencia',
       items: [
-        'NIST AI Risk Management Framework (AI RMF 1.0), 2023.',
-        'OECD AI Principles, actualizados 2024.',
-        'Ethics Guidelines for Trustworthy AI (HLEG, Comisión Europea).',
-        'ALTAI — Assessment List for Trustworthy AI.',
-        'IEEE 7000 series sobre ética en sistemas autónomos.',
+        {
+          texto: 'NIST AI Risk Management Framework (AI RMF 1.0), 2023.',
+          href: 'https://www.nist.gov/itl/ai-risk-management-framework',
+        },
+        {
+          texto: 'OECD AI Principles, actualizados 2024.',
+          href: 'https://oecd.ai/en/ai-principles/',
+        },
+        {
+          texto: 'Ethics Guidelines for Trustworthy AI (HLEG, Comisión Europea).',
+          href: 'https://digital-strategy.ec.europa.eu/en/policies/1-ethics-guidelines-for-trustworthy-ai/',
+        },
+        {
+          texto: 'ALTAI — Assessment List for Trustworthy AI.',
+          href: 'https://alti.futuristic.io/list/',
+        },
+        {
+          texto: 'IEEE 7000 series sobre ética en sistemas autónomos.',
+          href: 'https://standards.ieee.org/ieee-7000.html',
+        },
       ],
     },
     {
       titulo: 'Lecturas complementarias',
       items: [
-        'Mökander, J. (2023). Auditing AI systems. Springer.',
-        'Raji, I. D. et al. (2020). Closing the AI accountability gap. FAT* Conference.',
-        'Floridi, L. (2023). The Ethics of Artificial Intelligence. Oxford University Press.',
-        'Friedler, S. A., Scheidegger, C. & Venkatasubramanian, S. (2016). On the (im)possibility of fairness.',
+        {
+          texto: 'Mökander, J. (2023). Auditing AI systems. Springer.',
+          href: 'https://link.springer.com/book/10.1007/978-3-031-29677-9',
+        },
+        {
+          texto: 'Raji, I. D. et al. (2020). Closing the AI accountability gap. FAT* Conference.',
+          href: 'https://dl.acm.org/doi/10.1145/3351095.3372851',
+        },
+        {
+          texto: 'Floridi, L. (2023). The Ethics of Artificial Intelligence. Oxford University Press.',
+          href: 'https://global.oup.com/academic/product/the-ethics-of-artificial-intelligence-9780198863676',
+        },
+        {
+          texto: 'Friedler, S. A., Scheidegger, C. & Venkatasubramanian, S. (2016). On the (im)possibility of fairness.',
+          href: 'https://arxiv.org/abs/1609.07236',
+        },
       ],
     },
   ];
@@ -76,7 +160,7 @@ export default function Bibliografia() {
             Bibliografía
           </h1>
           <p className="font-serif italic text-xl md:text-2xl max-w-2xl text-muted leading-snug">
-            Normativa, estándares y lecturas que articulan el contenido de las tres sesiones.
+            Normativa, estándares y lecturas que articulan el contenido de las cuatro sesiones.
           </p>
         </div>
       </section>
@@ -97,7 +181,18 @@ export default function Bibliografia() {
                     key={j}
                     className="border-b border-ink/15 pb-3 text-sm leading-relaxed"
                   >
-                    {item}
+                    {item.href ? (
+                      <a
+                        href={item.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent underline hover:no-underline"
+                      >
+                        {item.texto}
+                      </a>
+                    ) : (
+                      item.texto
+                    )}
                   </li>
                 ))}
               </ul>
