@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import ContadorPlazas from '@/components/ContadorPlazas';
+import { COURSE_CONFIG } from '@/lib/config';
 
-const STRIPE_LINK_FUNDADOR = 'https://buy.stripe.com/9B6eVec61cWX8dV2f3bII00';
-const STRIPE_LINK_GENERAL = 'https://buy.stripe.com/dRmcN61rncWX2TB4nbbII01';
+const { STRIPE_LINK_FUNDADOR, STRIPE_LINK_GENERAL } = COURSE_CONFIG;
 
 export default function Matricula() {
   return (

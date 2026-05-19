@@ -1,12 +1,12 @@
 'use client';
 
 import { useState, useEffect, ReactNode } from 'react';
+import { COURSE_CONFIG } from '@/lib/config';
 
 // IMPORTANTE: contraseña client-side, no es seguridad real.
 // Es una barrera para alumnado matriculado. Para producción seria,
 // migrar a una ruta protegida en laclasedigital.com con backend.
-const ACCESS_PASSWORD = 'auditoria2026';
-const STORAGE_KEY = 'curso-auditoria-ia-access';
+const { ACCESS_PASSWORD, STORAGE_KEY } = COURSE_CONFIG;
 
 export function useAccess() {
   const [granted, setGranted] = useState(false);

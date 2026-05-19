@@ -1,7 +1,8 @@
 import Link from 'next/link';
+import { COURSE_CONFIG } from '@/lib/config';
 
-// Clave de acceso compartida (debe coincidir con la de AccessGate.tsx)
-const ACCESS_PASSWORD = 'auditoria2026';
+// Clave de acceso compartida (centralizada en lib/config.ts)
+const { ACCESS_PASSWORD } = COURSE_CONFIG;
 
 export default function Gracias() {
   return (
