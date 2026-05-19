@@ -5,7 +5,7 @@ export default function Footer() {
         <div>
           <p className="text-accent text-base mb-2">[|]</p>
           <p>La Clase Digital</p>
-          <p>9, 10 y 11 de septiembre de 2026</p>
+          <p>9, 16, 23 y 30 de septiembre de 2026</p>
           <p className="italic">Formato online</p>
         </div>
         <div>
@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
           <p className="uppercase mb-2 text-ink">Más cursos</p>
           <p>
-            <a href="https://laclasedigital.com" className="hover:text-accent">
+            <a href="https://laclasedigital.com" className="hover:text-accent" target="_blank" rel="noopener noreferrer">
               ↗ laclasedigital.com
             </a>
           </p>

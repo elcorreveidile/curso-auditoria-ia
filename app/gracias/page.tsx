@@ -34,7 +34,7 @@ export default function Gracias() {
           <p className="text-sm text-ink/80 max-w-xl mx-auto leading-relaxed mb-8">
             Si no recibes el email en 24 horas, revisa tu carpeta de spam o escribe directamente
             a través de{' '}
-            <a href="https://laclasedigital.com" className="underline hover:text-accent">
+            <a href="https://laclasedigital.com" className="underline hover:text-accent" target="_blank" rel="noopener noreferrer">
               laclasedigital.com
             </a>.
           </p>
@@ -102,7 +102,7 @@ export default function Gracias() {
           <p className="text-sm leading-relaxed">
             Si la clave no te funciona o no has recibido el email de Stripe en 24 horas,
             comprueba tu carpeta de spam o escribe directamente al docente a través de{' '}
-            <a href="https://laclasedigital.com" className="underline hover:text-accent">
+            <a href="https://laclasedigital.com" className="underline hover:text-accent" target="_blank" rel="noopener noreferrer">
               laclasedigital.com
             </a>
             .

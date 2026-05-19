@@ -184,7 +184,7 @@ export default function Home() {
               espacio desde el que ofrece cursos especializados.
             </p>
             <p className="font-mono text-xs tracking-wider text-gold">
-              <a href="https://laclasedigital.com" className="hover:underline">
+              <a href="https://laclasedigital.com" className="hover:underline" target="_blank" rel="noopener noreferrer">
                 ↗ laclasedigital.com
               </a>
             </p>

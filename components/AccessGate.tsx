@@ -123,7 +123,7 @@ export default function AccessGate({ children }: { children: ReactNode }) {
 
       <p className="text-xs text-muted text-center mt-8 italic">
         Si eres alumno y no recuerdas la clave, escribe a través de{' '}
-        <a href="https://laclasedigital.com" className="underline">
+        <a href="https://laclasedigital.com" className="underline" target="_blank" rel="noopener noreferrer">
           laclasedigital.com
         </a>
         .
