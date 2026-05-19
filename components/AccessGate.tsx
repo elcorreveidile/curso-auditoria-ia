@@ -78,9 +78,10 @@ export default function AccessGate({ children }: { children: ReactNode }) {
         en el curso.
       </p>
       <form
-        onSubmit={(e) => {
+        onSubmit={async (e) => {
           e.preventDefault();
-          if (!grant(pwd)) setErr(true);
+          const success = await grant(pwd);
+          if (!success) setErr(true);
         }}
         className="space-y-4"
       >
