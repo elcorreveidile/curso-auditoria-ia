@@ -1,8 +1,4 @@
 import Link from 'next/link';
-import { COURSE_CONFIG } from '@/lib/config';
-
-// Clave de acceso compartida (centralizada en lib/config.ts)
-const { ACCESS_PASSWORD } = COURSE_CONFIG;
 
 export default function Gracias() {
   return (
@@ -25,18 +21,22 @@ export default function Gracias() {
       <section className="bg-gold border-b border-ink">
         <div className="max-w-3xl mx-auto px-6 py-16 text-center">
           <p className="font-mono text-xs tracking-widest text-ink uppercase mb-3">
-            Acceso inmediato a los materiales
+            Acceso a los materiales
           </p>
           <h2 className="font-serif italic text-3xl md:text-4xl text-ink mb-6 leading-tight">
-            Tu clave de acceso
+            Recibirás tu clave de acceso por email
           </h2>
-          <div className="inline-block bg-ink text-paper px-8 py-5 mb-6 font-mono text-2xl md:text-3xl tracking-widest">
-            {ACCESS_PASSWORD}
-          </div>
           <p className="text-sm text-ink/80 max-w-xl mx-auto leading-relaxed mb-8">
-            Guarda esta clave. Te da acceso a los dossiers completos, plantillas
-            profesionales, guion docente y slides del curso. La usarás desde la
-            zona de materiales.
+            En las próximas 24 horas recibirás un email del docente con tu clave de acceso
+            a la zona de materiales. Esta clave te dará acceso a los dossiers completos,
+            plantillas profesionales, guion docente y slides del curso.
+          </p>
+          <p className="text-sm text-ink/80 max-w-xl mx-auto leading-relaxed mb-8">
+            Si no recibes el email en 24 horas, revisa tu carpeta de spam o escribe directamente
+            a través de{' '}
+            <a href="https://laclasedigital.com" className="underline hover:text-accent">
+              laclasedigital.com
+            </a>.
           </p>
           <Link
             href="/acceso/"

@@ -6,7 +6,7 @@ import { COURSE_CONFIG } from '@/lib/config';
 // IMPORTANTE: contraseña client-side, no es seguridad real.
 // Es una barrera para alumnado matriculado. Para producción seria,
 // migrar a una ruta protegida en laclasedigital.com con backend.
-const { ACCESS_PASSWORD, STORAGE_KEY } = COURSE_CONFIG;
+const { STORAGE_KEY } = COURSE_CONFIG;
 
 export function useAccess() {
   const [granted, setGranted] = useState(false);
@@ -19,8 +19,21 @@ export function useAccess() {
     }
   }, []);
 
-  const grant = (pwd: string) => {
-    if (pwd === ACCESS_PASSWORD) {
+  const grant = async (pwd: string) => {
+    // Verificar contraseña vía API (server-side)
+    const response = await fetch('/api/verify-password', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ password: pwd }),
+    });
+
+    if (!response.ok) {
+      return false;
+    }
+
+    const { isValid } = await response.json();
+
+    if (isValid) {
       localStorage.setItem(STORAGE_KEY, 'ok');
       setGranted(true);
       return true;

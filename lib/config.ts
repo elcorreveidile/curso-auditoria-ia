@@ -1,15 +1,13 @@
 /**
  * Configuración centralizada del curso.
  *
- * IMPORTANTE: ACCESS_PASSWORD es una protección client-side, no es seguridad real.
- * Es una barrera para alumnado matriculado. Para producción seria,
+ * IMPORTANTE: ACCESS_PASSWORD ahora se almacena en variable de entorno (process.env.ACCESS_PASSWORD)
+ * para no estar expuesta en el repositorio. La verificación se hace vía API route server-side.
+ * Sigue siendo una protección client-side, no es seguridad real. Para producción seria,
  * migrar a una ruta protegida en laclasedigital.com con backend.
  */
 
 export const COURSE_CONFIG = {
-  // Contraseña de acceso a la zona de materiales
-  ACCESS_PASSWORD: 'auditoria2026',
-
   // Clave para localStorage (AccessGate)
   STORAGE_KEY: 'curso-auditoria-ia-access',
 
