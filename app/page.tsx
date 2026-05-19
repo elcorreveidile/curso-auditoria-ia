@@ -7,10 +7,10 @@ export default function Home() {
       <section className="bg-ink text-paper">
         <div className="max-w-6xl mx-auto px-6 py-24 md:py-32">
           <p className="font-mono text-xs tracking-widest text-gold mb-6">
-            [|] LA CLASE DIGITAL · ONLINE · 9–11 SEPT 2026
+            [|] LA CLASE DIGITAL · ONLINE · 9, 16, 23, 30 SEPT 2026
           </p>
           <h1 className="font-serif italic text-5xl md:text-7xl lg:text-8xl leading-none tracking-tight mb-8">
-            Auditoría de procesos<br />
+            Auditoría de Sistemas<br />
             de <span className="text-gold not-italic font-medium">Inteligencia Artificial</span>
           </h1>
           <p className="font-serif italic text-xl md:text-2xl max-w-2xl text-paper/80 leading-snug">
@@ -53,12 +53,23 @@ export default function Home() {
             </p>
             <p>
               Este curso ofrece una formación práctica en auditoría de IA conforme a
-              los marcos vigentes en 2026: el Reglamento europeo (UE) 2024/1689 (AI
-              Act), la norma ISO/IEC 42001, la ISO/IEC 23894 sobre gestión de riesgos
-              y el NIST AI Risk Management Framework.
+              los marcos vigentes en 2026:{' '}
+              <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689" className="text-accent underline hover:no-underline" target="_blank" rel="noopener noreferrer">
+                el Reglamento europeo (UE) 2024/1689 (AI Act)
+              </a>,{' '}
+              <a href="https://www.iso.org/standard/81230.html" className="text-accent underline hover:no-underline" target="_blank" rel="noopener noreferrer">
+                la norma ISO/IEC 42001
+              </a>,{' '}
+              <a href="https://www.iso.org/standard/76977.html" className="text-accent underline hover:no-underline" target="_blank" rel="noopener noreferrer">
+                la ISO/IEC 23894 sobre gestión de riesgos
+              </a>{' '}
+              y{' '}
+              <a href="https://www.nist.gov/itl/ai-risk-management-framework" className="text-accent underline hover:no-underline" target="_blank" rel="noopener noreferrer">
+                el NIST AI Risk Management Framework
+              </a>.
             </p>
             <p>
-              A lo largo de tres sesiones online en directo, el alumnado trabaja sobre un
+              A lo largo de cuatro sesiones online en directo, el alumnado trabaja sobre un
               caso transversal real, recorriendo el ciclo completo de la auditoría:
               desde la carta de encargo hasta la presentación de hallazgos y la hoja
               de ruta de mejora.
@@ -67,31 +78,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TRES SESIONES */}
+      {/* CUATRO SESIONES */}
       <section className="bg-paper-warm border-y border-ink">
         <div className="max-w-6xl mx-auto px-6 py-20">
           <p className="font-mono text-xs tracking-widest text-accent uppercase mb-3">
             Estructura
           </p>
           <h2 className="font-serif text-3xl md:text-4xl mb-12 leading-tight">
-            Tres sesiones, una mirada
+            Cuatro sesiones, una mirada
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-4 gap-6">
             {[
               {
                 date: '9 sept',
-                title: 'Fundamentos',
-                desc: 'Tecnologías, ciclo de vida, principios éticos. La base que todo auditor de IA necesita.',
+                title: 'Disrupción algorítmica',
+                desc: 'NLPUE, 4 dilemas del algoritmo, enfoques regulatorios comparados.',
               },
               {
-                date: '10 sept',
-                title: 'Riesgos y normas',
-                desc: 'AI Act, ISO 42001, ISO 23894. El marco regulatorio europeo y sus articulaciones.',
+                date: '16 sept',
+                title: 'Marco regulatorio',
+                desc: 'AI Act, ISO 42001, ISO 23894, NIST. Sistemas de gestión y ciclos de vida.',
               },
               {
-                date: '11 sept',
+                date: '23 sept',
+                title: 'Riesgos y competitividad',
+                desc: 'IA generativa, ciberseguridad, concentración, dependencia de proveedores.',
+              },
+              {
+                date: '30 sept',
                 title: 'Práctica auditora',
-                desc: 'Gobernanza, documentación, comunicación. Un plan completo para un caso real.',
+                desc: 'Metodología completa, gobernanza, comunicación triple dimensión.',
               },
             ].map((s, i) => (
               <div
