@@ -199,6 +199,15 @@ curso-auditoria-ia/
 
 **Fase 3 (septiembre 2026):** Primera edición del curso, ya con sistema profesional si se completa Fase 2. Si no, seguir con Fase 1 para ediciones futuras.
 
+### Tareas pendientes
+
+**URGENTE — Revisar enlaces de bibliografía:**
+- Muchos enlaces en `app/bibliografia/page.tsx` siguen rotos
+- Secciones afectadas principalmente: Normativa internacional, Marcos de referencia, Lecturas complementarias
+- Los enlaces ISO y EUR-LEX parecen correctos
+- Tarea: verificar cada enlace uno a uno y buscar URLs alternativas cuando proceda
+- Fecha de última revisión: 19 mayo 2026
+
 -----
 
 ## Contraseña de acceso a materiales
