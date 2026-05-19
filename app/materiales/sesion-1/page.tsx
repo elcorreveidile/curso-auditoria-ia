@@ -6,9 +6,11 @@ export default function Sesion1Page() {
   return (
     <ProtectedDoc
       sessionLabel="Sesión 1 · 9 de septiembre"
-      title="Fundamentos"
-      subtitle="Industria 5.0 · Ciclo de vida · Principios éticos · Explicabilidad · IA generativa"
+      title="Disrupción algorítmica y nueva lógica de la utilidad"
+      subtitle="NLPUE · Dilemas del algoritmo · Enfoques regulatorios comparados"
       content={content}
+      nextHref="/materiales/sesion-2/"
+      nextLabel="Continúa en Sesión 2 →"
     />
   );
 }
