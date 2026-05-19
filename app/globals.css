@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --grid-line: rgba(26, 26, 26, 0.06);
+}
+
+html, body {
+  background-color: #f4f1e8;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Inter Tight', system-ui, sans-serif;
+  background-image:
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.prose-curso {
+  max-width: 70ch;
+  line-height: 1.65;
+  font-size: 1.05rem;
+}
+.prose-curso h1, .prose-curso h2, .prose-curso h3, .prose-curso h4 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+  line-height: 1.15;
+}
+.prose-curso h1 { font-size: 2.6rem; font-style: italic; font-weight: 500; }
+.prose-curso h2 { font-size: 2rem; }
+.prose-curso h3 { font-size: 1.5rem; font-style: italic; }
+.prose-curso h4 { font-size: 1.2rem; }
+.prose-curso p { margin: 0.8em 0; }
+.prose-curso a { color: #a73838; text-decoration: underline; text-underline-offset: 3px; }
+.prose-curso ul, .prose-curso ol { margin: 0.8em 0; padding-left: 1.5em; }
+.prose-curso li { margin: 0.4em 0; }
+.prose-curso blockquote {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 1.3em;
+  border-left: 3px solid #a73838;
+  padding-left: 1.2em;
+  margin: 1.5em 0;
+  color: #1a1a1a;
+}
+.prose-curso table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.2em 0;
+  font-size: 0.92em;
+}
+.prose-curso th, .prose-curso td {
+  border: 1px solid #1a1a1a;
+  padding: 0.5em 0.7em;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-curso th {
+  background: #1a1a1a;
+  color: #f4f1e8;
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 400;
+  font-size: 0.78em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.prose-curso code {
+  font-family: 'JetBrains Mono', monospace;
+  background: #ebe6d6;
+  padding: 0.1em 0.4em;
+  font-size: 0.9em;
+}
+.prose-curso pre {
+  background: #1a1a1a;
+  color: #f4f1e8;
+  padding: 1.2em;
+  overflow-x: auto;
+  font-size: 0.85em;
+  line-height: 1.5;
+  margin: 1.2em 0;
+}
+.prose-curso pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+.prose-curso hr {
+  border: none;
+  border-top: 1px solid #1a1a1a;
+  margin: 2.5em 0;
+}
+.prose-curso strong { font-weight: 600; }
+.prose-curso em { font-style: italic; }
