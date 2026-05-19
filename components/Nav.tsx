@@ -17,11 +17,24 @@ export default function Nav() {
   return (
     <nav className="border-b border-ink bg-paper sticky top-0 z-50 backdrop-blur-sm bg-paper/95">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link href="/" className="font-mono text-sm tracking-wider hover:text-accent transition-colors">
-          <span className="text-accent">[|]</span>{' '}
-          <span className="hidden sm:inline">LA CLASE DIGITAL · AUDITORÍA IA</span>
-          <span className="sm:hidden">AUDITORÍA IA</span>
-        </Link>
+        <div className="font-mono text-sm tracking-wider flex items-center">
+          <a
+            href="https://laclasedigital.com"
+            className="hover:text-accent transition-colors"
+            aria-label="Ir a laclasedigital.com"
+          >
+            <span className="text-accent">[|]</span>
+            <span className="hidden sm:inline"> LA CLASE DIGITAL</span>
+          </a>
+          <span className="hidden sm:inline mx-2 text-muted">·</span>
+          <Link
+            href="/"
+            className="hover:text-accent transition-colors"
+            aria-label="Inicio del curso"
+          >
+            <span className="sm:ml-0 ml-2">AUDITORÍA IA</span>
+          </Link>
+        </div>
         <button
           className="md:hidden font-mono text-xs"
           onClick={() => setOpen(!open)}
