@@ -94,6 +94,19 @@ export default function AccessGate({ children }: { children: ReactNode }) {
           Acceder →
         </button>
       </form>
+
+      <div className="mt-12 pt-8 border-t border-ink/15 text-center">
+        <p className="text-xs text-muted mb-4 italic">
+          ¿Aún no estás matriculado?
+        </p>
+        <a
+          href="/matricula/"
+          className="inline-block border border-ink px-5 py-2 font-mono text-xs uppercase tracking-wider hover:bg-ink hover:text-paper transition-colors"
+        >
+          Ver tarifas y matricularme →
+        </a>
+      </div>
+
       <p className="text-xs text-muted text-center mt-8 italic">
         Si eres alumno y no recuerdas la clave, escribe a través de{' '}
         <a href="https://laclasedigital.com" className="underline">

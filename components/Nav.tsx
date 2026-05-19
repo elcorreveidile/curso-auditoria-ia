@@ -11,6 +11,7 @@ export default function Nav() {
     { href: '/programa/', label: 'Programa' },
     { href: '/caso/', label: 'Caso' },
     { href: '/bibliografia/', label: 'Bibliografía' },
+    { href: '/matricula/', label: 'Matrícula' },
     { href: '/acceso/', label: 'Materiales' },
   ];
 

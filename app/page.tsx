@@ -18,16 +18,16 @@ export default function Home() {
           </p>
           <div className="mt-12 flex flex-wrap gap-4 font-mono text-xs tracking-wider uppercase">
             <Link
+              href="/matricula/"
+              className="border border-gold bg-gold text-ink px-5 py-3 hover:bg-paper hover:border-paper transition-colors"
+            >
+              Matricularme →
+            </Link>
+            <Link
               href="/programa/"
               className="border border-paper px-5 py-3 hover:bg-paper hover:text-ink transition-colors"
             >
-              Ver programa →
-            </Link>
-            <Link
-              href="/acceso/"
-              className="border border-gold text-gold px-5 py-3 hover:bg-gold hover:text-ink transition-colors"
-            >
-              Materiales (acceso)
+              Ver programa
             </Link>
           </div>
         </div>
@@ -173,6 +173,27 @@ export default function Home() {
               </a>
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* CTA FINAL */}
+      <section className="border-t border-ink">
+        <div className="max-w-4xl mx-auto px-6 py-20 text-center">
+          <p className="font-mono text-xs tracking-widest text-accent uppercase mb-3">
+            Matrícula abierta
+          </p>
+          <h2 className="font-serif italic text-4xl md:text-6xl mb-6 leading-tight">
+            Reserva tu plaza
+          </h2>
+          <p className="font-serif italic text-lg md:text-xl text-muted max-w-2xl mx-auto mb-10 leading-snug">
+            Plazas limitadas a 30 personas. Precio fundador disponible hasta el inicio del curso.
+          </p>
+          <Link
+            href="/matricula/"
+            className="inline-block border border-ink bg-ink text-paper px-8 py-4 font-mono text-xs uppercase tracking-wider hover:bg-paper hover:text-ink transition-colors"
+          >
+            Ver tarifas y matricularme →
+          </Link>
         </div>
       </section>
     </>
