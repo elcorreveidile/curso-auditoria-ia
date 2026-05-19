@@ -4,8 +4,8 @@ export default function Bibliografia() {
       titulo: 'Informes oficiales',
       items: [
         {
-          texto: 'Ministerio de Economía, Comercio y Empresa (2025). Estudio de Prospeción Tecnológica en Inteligencia Artificial. 10 volúmenes, 1.800+ referencias. Volumen 8 (Ciberseguridad), Volumen 9 (IA, datos y competencia), Volumen 10 (Ética, gobernanza y regulación).',
-          href: 'https://www.lamoncloa.gob.es/es/areas-tematicas/prospeccion-tecnologica/Paginas/index.aspx',
+          texto: 'Oficina Nacional de Prospectiva y Estrategia (2025). HispanIA 2040: Estudio de Prospeción Tecnológica en Inteligencia Artificial. 10 volúmenes, 1.800+ referencias. Volumen 8 (Ciberseguridad), Volumen 9 (IA, datos y competencia), Volumen 10 (Ética, gobernanza y regulación).',
+          href: 'https://futuros.gob.es/nuestro-trabajo/hispania-2040',
         },
       ],
     },
@@ -30,20 +30,20 @@ export default function Bibliografia() {
       titulo: 'Normativa española',
       items: [
         {
-          texto: 'Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).',
-          href: 'https://www.boe.es/eli/es/lo/2018/3/con',
+          texto: 'Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).',
+          href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673',
         },
         {
-          texto: 'Real Decreto 311/2022 que regula el Esquema Nacional de Seguridad (ENS).',
-          href: 'https://www.boe.es/eli/es/rd/2022/311',
+          texto: 'Real Decreto 311/2022, de 3 de mayo, por el que se regula el Esquema Nacional de Seguridad (ENS).',
+          href: 'https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191',
         },
         {
-          texto: 'Estrategia Nacional de Inteligencia Artificial (ENIA 2024).',
-          href: 'https://www.lamoncloa.gob.es/es/areas-tematicas/inteligencia_artificial/Paginas/enia-2024',
+          texto: 'Estrategia de Inteligencia Artificial 2024 (ENIA).',
+          href: 'https://portal.mineco.gob.es/es-es/digitalizacionIA/Documents/Estrategia_IA_2024.pdf',
         },
         {
-          texto: 'Agencia Española de Supervisión de la Inteligencia Artificial (AESIA) — guías técnicas.',
-          href: 'https://www.aesia.es/',
+          texto: 'Agencia Española de Supervisión de la Inteligencia Artificial (AESIA).',
+          href: 'https://aesia.digital.gob.es/es',
         },
       ],
     },
