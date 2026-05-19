@@ -376,4 +376,63 @@ Para cada dimensión, valorar de 1 (inicial) a 5 (optimizado):
 
 ---
 
+## PLANTILLA 8 — Matriz de dependencias de proveedores de IA
+
+```
+MATRIZ DE DEPENDENCIAS DE PROVEEDORES DE IA
+
+| Sistema | Proveedor | Porcentaje de uso | ¿Crítico? | Lock-in técnico | Lock-in de datos | Coste salida (€, meses) | Alternativas | Plan de diversificación |
+|---------|-----------|-------------------|-----------|-----------------|-----------------|-------------------------|--------------|-------------------------|
+| | | | | | | | | |
+
+Leyenda:
+- Porcentaje de uso: % de sistemas de IA que dependen de este proveedor
+- ¿Crítico?: sí/no (¿afecta a operación core?)
+- Lock-in técnico: alto/medio/bajo (¿es posible migrar?)
+- Lock-in de datos: alto/medio/bajo (¿quién es propietario?)
+- Coste salida: estimación en € y meses
+- Alternativas: ¿existen 2+ proveedores alternativos viables?
+- Plan de diversificación: sí/no/plazo
+```
+
+---
+
+## PLANTILLA 9 — Ficha de dilema del algoritmo
+
+```
+FICHA DE DILEMA DEL ALGORITMO
+
+ID:                         DA-[NÚMERO]
+Sistema auditado:
+Fecha:
+
+DILEMA IDENTIFICADO:
+□ Agencia humana
+□ Atribución de responsabilidad
+□ Transparencia vs opacidad
+□ Sesgo estructural
+
+DESCRIPCIÓN DEL DILEMA:
+[Contexto específico]
+
+POSICIÓN DE LA ORGANIZACIÓN:
+[¿Cómo aborda el dilema? Documentos, políticas, prácticas]
+
+ALTERNATIVAS NO CONSIDERADAS:
+[¿Qué otros enfoques serían posibles?]
+
+EVALUACIÓN DEL AUDITOR:
+Coherencia con valores declarados: _____/10
+Adecuación al contexto regulatorio: _____/10
+Mecanismos de rendición de cuentas: _____/10
+
+RECOMENDACIÓN:
+[Propuesta de mejora]
+
+PRIORIDAD:
+□ Inmediata    □ Alta    □ Media    □ Baja
+```
+
+---
+
 **[|]**

@@ -44,6 +44,8 @@ La dirección de Centro Lingua ha promovido o tolerado las siguientes incorporac
 
 8. **Asistente de gestión de personal** (en evaluación): un sistema que automatizaría parte del proceso de contratación de profesorado externo, incluido el cribado inicial de candidaturas.
 
+9. **Plataforma de análisis de sentimiento en redes sociales** (en exploración): la dirección evalúa contratar un servicio que analizaría menciones a Centro Lingua en Twitter/Instagram para detectar crisis reputacionales. Proveedor estadounidense. Sin garantías de ausencia de sesgo demográfico.
+
 ### Otros datos relevantes
 
 - **No existe** política interna formal de uso de IA.
@@ -94,11 +96,13 @@ La dirección de Centro Lingua os proporciona, tras vuestras preguntas, la sigui
 
 - **Cuestiones organizativas**: el director es ingeniero, técnicamente afín a las soluciones tecnológicas. La subdirectora académica es filóloga, escéptica con los usos de IA. El comité de empresa ha presentado por escrito su preocupación por el uso de IA en aspectos que afectan al trabajo del personal docente (asistente de corrección, generación de materiales).
 
+- **Situación competitiva**: el proveedor del chatbot ha sido adquirido recientemente por una big tecnológica. No hay claridad sobre si el servicio continuará o migrará a otra plataforma. Los contratos del 80% de los proveedores de IA de Centro Lingua tienen cláusulas de propietariedad sobre mejoras y datos derivados.
+
 ### Encargo (Sesión 2)
 
 **Tarea 2**:
 
-1. **Clasificación AI Act**: para cada uno de los ocho sistemas, indicad la categoría de riesgo según el Reglamento UE 2024/1689 (prohibido / alto riesgo / riesgo limitado / riesgo mínimo) y justificadla con referencia a los artículos o anexos pertinentes.
+1. **Clasificación AI Act**: para cada uno de los nueve sistemas, indicad la categoría de riesgo según el Reglamento UE 2024/1689 (prohibido / alto riesgo / riesgo limitado / riesgo mínimo) y justificadla con referencia a los artículos o anexos pertinentes.
 
 2. **Matriz de riesgos**: elaborad una matriz con los **diez riesgos más relevantes** identificados en el conjunto de la organización (no por sistema, sino transversales). Para cada riesgo:
    - Descripción.
@@ -108,6 +112,13 @@ La dirección de Centro Lingua os proporciona, tras vuestras preguntas, la sigui
    - Controles existentes (si los hay).
 
 3. **Identificad las tres prácticas que más urgentemente** deben regularse en Centro Lingua y justificad la prioridad.
+
+4. **Análisis competitivo (dimensión de mercado)**:
+   - Identificad qué porcentaje de sistemas críticos dependen de proveedores únicos.
+   - Evaluad el lock-in de cada sistema (alto/medio/bajo) tanto técnico como de datos.
+   - Calculad una estimación de coste de salida para el chatbot (orden de magnitud).
+   - Identificad riesgos de la adquisición del proveedor del chatbot por una big tech.
+   - Proponed una estrategia de diversificación a 3 años.
 
 ---
 
@@ -119,9 +130,10 @@ La dirección de Centro Lingua, tras presentar vuestro análisis preliminar, os 
 
 - Plazo: **4 meses**.
 - Recursos: el equipo auditor más acceso a personal interno.
-- Alcance: completo (los ocho sistemas + gobernanza + datos + cumplimiento).
+- Alcance: completo (los nueve sistemas + gobernanza + datos + cumplimiento + dimensión competitiva).
 - Entregables esperados: informe ejecutivo, informe técnico, hoja de ruta, plan de formación, propuesta de política de uso de IA, propuesta de gobernanza.
 - Marco de referencia: AI Act + ISO 42001 + RGPD + ALTAI.
+- La dirección os pide específicamente que el informe incluya **una sección sobre riesgos competitivos y de concentración**, preocupada por la adquisición del proveedor del chatbot.
 
 ### Encargo (Sesión 3)
 
@@ -154,14 +166,21 @@ La dirección de Centro Lingua, tras presentar vuestro análisis preliminar, os 
 
 6. **Propuestas de quick wins** que pueden adelantarse durante la propia auditoría sin esperar al informe.
 
+7. **Sección específica del informe: "Dimensión competitiva y de mercado"**:
+   - Estructura de la sección que incluiréis en el informe final.
+   - Matriz de dependencias de proveedores rellena (simulada con datos razonables).
+   - 3 recomendaciones específicas sobre diversificación de proveedores.
+   - Análisis del riesgo de la adquisición del proveedor del chatbot.
+
 ### Cierre
 
 Cada grupo presentará su plan en 4-5 minutos. Atención a los siguientes criterios de evaluación:
 
 - **Realismo**: ¿es ejecutable en 16 semanas con los recursos previstos?
-- **Cobertura**: ¿aborda los tres marcos (AI Act, ISO 42001, RGPD)?
+- **Cobertura**: ¿aborda los cuatro marcos (AI Act, ISO 42001, RGPD, dimensión competitiva)?
 - **Sensibilidad organizativa**: ¿tiene en cuenta el comité de empresa y la cultura de la organización?
 - **Profundidad técnica**: ¿incluye pruebas técnicas o se queda en lo documental?
+- **Análisis competitivo**: ¿aborda lock-in, concentración y dependencias de proveedores?
 - **Comunicación**: ¿está pensado para que el cliente lo entienda y lo apruebe?
 
 ---

@@ -17,7 +17,7 @@ export default function Matricula() {
             Matrícula
           </h1>
           <p className="font-serif italic text-xl md:text-2xl max-w-2xl text-paper/80 leading-snug">
-            Reserva tu plaza en el curso de Auditoría de Procesos de IA. Plazas limitadas a 30 personas.
+            Reserva tu plaza en el curso de Auditoría de Procesos de IA. 16 horas de formación especializada basadas en el Estudio del Ministerio de Economía. Plazas limitadas a 30 personas.
           </p>
         </div>
       </section>
@@ -36,12 +36,12 @@ export default function Matricula() {
           <div className="md:col-span-2">
             <ul className="space-y-3 text-sm leading-relaxed">
               {[
-                '12 horas de formación online en directo (3 sesiones de 4 h: 9, 10 y 11 de septiembre, 16:00–20:00).',
+                '16 horas de formación online en directo (4 sesiones de 4 h: 9, 16, 23 y 30 de septiembre, 16:00–20:00).',
                 'Acceso a las grabaciones de las sesiones para revisar el contenido cuando quieras.',
-                'Dossier completo del curso por sesión (más de 80 páginas de contenido teórico).',
-                'Plantillas profesionales editables: carta de encargo, matriz de riesgos, plan de auditoría, ficha de hallazgo, modelo de informe, cuestionario de madurez.',
-                'Caso transversal "Centro Lingua" para practicar la auditoría en un escenario realista.',
-                'Foro asíncrono entre sesiones para resolver dudas con el docente.',
+                'Dossier completo del curso por sesión (más de 120 páginas de contenido teórico).',
+                'Plantillas profesionales editables: carta de encargo, matriz de riesgos, plan de auditoría, ficha de hallazgo, modelo de informe, cuestionario de madurez, matriz de dependencias, ficha de dilemas del algoritmo.',
+                'Caso transversal "Centro Lingua" para practicar la auditoría en un escenario realista (trabajado por entregas semanales).',
+                'Foro asíncrono activo entre sesiones para resolver dudas con el docente y compartir avances.',
                 'Certificado de aprovechamiento al completar el curso (mínimo 80 % de asistencia).',
               ].map((item, i) => (
                 <li key={i} className="flex gap-4 border-b border-ink/15 py-2">
@@ -66,7 +66,7 @@ export default function Matricula() {
             Dos tarifas, una misma formación
           </h2>
           <p className="font-serif italic text-lg text-muted max-w-2xl mb-10">
-            El precio fundador está disponible hasta el inicio del curso. A partir del 9 de septiembre, solo precio general.
+            Curso ampliado a 16 horas con base en el Estudio del Ministerio de Economía. Incluye dimensión competitiva, ciberseguridad IA y enfoques regulatorios comparados.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -79,7 +79,7 @@ export default function Matricula() {
                 Para quienes apuestan por la primera edición.
               </p>
               <div className="mb-6">
-                <span className="font-serif text-6xl">149</span>
+                <span className="font-serif text-6xl">299</span>
                 <span className="font-mono text-lg ml-1">€</span>
               </div>
               <ul className="space-y-2 text-sm leading-relaxed mb-8 flex-1">
@@ -100,7 +100,7 @@ export default function Matricula() {
                 Tarifa estándar disponible hasta el inicio del curso.
               </p>
               <div className="mb-6">
-                <span className="font-serif text-6xl">249</span>
+                <span className="font-serif text-6xl">399</span>
                 <span className="font-mono text-lg ml-1">€</span>
               </div>
               <ul className="space-y-2 text-sm leading-relaxed mb-8 flex-1">
@@ -156,7 +156,7 @@ export default function Matricula() {
             },
             {
               q: '¿Se entrega certificado?',
-              a: 'Sí, certificado de aprovechamiento de 12 horas al completar el curso con asistencia mínima del 80 % y entrega del plan de auditoría final.',
+              a: 'Sí, certificado de aprovechamiento de 16 horas al completar el curso con asistencia mínima del 80 % y entrega del plan de auditoría final.',
             },
           ].map((item, i) => (
             <div key={i} className="border-b border-ink/15 pb-6">

@@ -3,45 +3,60 @@ export default function Programa() {
     {
       num: 1,
       fecha: '9 de septiembre',
-      titulo: 'Fundamentos',
-      subtitulo: 'Industria 5.0, ciclo de vida, principios éticos',
+      titulo: 'Disrupción algorítmica y nueva lógica de la utilidad',
+      subtitulo: 'Del técnico a lo estratégico: cómo la IA redefine los problemas',
       bloques: [
         { t: '16:00–16:15', n: 'Apertura y diagnóstico inicial', m: 'Directo' },
         { t: '16:15–17:00', n: 'Industria 5.0 y panorama tecnológico de IA', m: 'Exposición' },
         { t: '17:00–17:45', n: 'Técnicas, algoritmos, modelos y ciclo de vida', m: 'Exposición + ejemplos' },
         { t: '17:45–18:00', n: 'Pausa', m: '—' },
-        { t: '18:00–18:45', n: 'Principios éticos: sesgo, equidad, transparencia, robustez', m: 'Exposición + debate' },
-        { t: '18:45–19:30', n: 'Explicabilidad e interpretabilidad · IA generativa', m: 'Exposición + demo' },
-        { t: '19:30–20:00', n: 'Taller 1: inventario de IA en el caso transversal', m: 'Breakout rooms' },
+        { t: '18:00–18:45', n: 'Principios éticos y NLPUE (Nueva Lógica de la Utilidad y la Ética)', m: 'Exposición + debate' },
+        { t: '18:45–19:30', n: 'Dilemas del algoritmo: agencia, atribución, transparencia, sesgo', m: 'Exposición + casos' },
+        { t: '19:30–20:00', n: 'Taller 1: inventario de IA e identificación de dilemas (Caso Centro Lingua)', m: 'Breakout rooms' },
       ],
     },
     {
       num: 2,
-      fecha: '10 de septiembre',
-      titulo: 'Riesgos y normas',
-      subtitulo: 'AI Act, ISO 42001, ISO 23894',
+      fecha: '16 de septiembre',
+      titulo: 'Marcos regulatorios: de la norma a la práctica',
+      subtitulo: 'AI Act, ISO, enfoques comparados e IA generativa',
       bloques: [
-        { t: '16:00–16:15', n: 'Repaso S1 y conexión con S2', m: 'Directo' },
-        { t: '16:15–17:15', n: 'Riesgos operativos asociados a sistemas de IA', m: 'Exposición + casos' },
-        { t: '17:15–18:00', n: 'AI Act: arquitectura del Reglamento UE 2024/1689', m: 'Exposición' },
+        { t: '16:00–16:15', n: 'Repaso S1 y conexión con S2', m: 'Directo + discusión tareas' },
+        { t: '16:15–17:15', n: 'AI Act: arquitectura completa del Reglamento UE 2024/1689', m: 'Exposición + ejercicios' },
+        { t: '17:15–18:00', n: 'ISO 42001, 23894, 24368 y articulación normativa', m: 'Taller guiado' },
         { t: '18:00–18:15', n: 'Pausa', m: '—' },
-        { t: '18:15–19:15', n: 'ISO 42001, 23894, 24368 y articulación normativa', m: 'Taller guiado' },
-        { t: '19:15–19:45', n: 'Marcos de auditoría · Tipos de auditor · Certificación', m: 'Exposición + debate' },
-        { t: '19:45–20:00', n: 'Taller 2: clasificación de riesgos en el caso', m: 'Breakout rooms' },
+        { t: '18:15–19:00', n: 'Enfoques regulatorios comparados: UE, EEUU y China', m: 'Exposición + análisis' },
+        { t: '19:00–19:45', n: 'IA generativa como categoría específica: GPAI y riesgos', m: 'Exposición + demo' },
+        { t: '19:45–20:00', n: 'Taller 2: clasificación de riesgos y normativa (Caso Centro Lingua)', m: 'Breakout rooms' },
       ],
     },
     {
       num: 3,
-      fecha: '11 de septiembre',
-      titulo: 'Práctica auditora',
-      subtitulo: 'Gobernanza, ciclo, documentación',
+      fecha: '23 de septiembre',
+      titulo: 'Riesgos, mercados y ciberseguridad',
+      subtitulo: 'Dimensión competitiva, lock-in y tensiones privacidad-seguridad',
       bloques: [
-        { t: '16:00–16:15', n: 'Repaso S2', m: 'Directo' },
-        { t: '16:15–17:00', n: 'Auditoría del ciclo de vida + gobernanza de IA', m: 'Exposición' },
-        { t: '17:00–17:45', n: 'Liderazgo, roles, gestión de procesos y riesgos', m: 'Exposición + ejemplos' },
+        { t: '16:00–16:15', n: 'Repaso S2 y conexión con S3', m: 'Directo + discusión tareas' },
+        { t: '16:15–17:00', n: 'Riesgos operativos asociados a sistemas de IA (profundización)', m: 'Exposición + casos' },
+        { t: '17:00–17:45', n: 'Dimensión competitiva y de mercado: concentración y lock-in', m: 'Exposición + análisis' },
         { t: '17:45–18:00', n: 'Pausa', m: '—' },
-        { t: '18:00–19:00', n: 'Taller integrador: plan de auditoría completo', m: 'Breakout rooms con tutoría' },
-        { t: '19:00–19:30', n: 'Documentación, no conformidades, comunicación', m: 'Exposición + plantillas' },
+        { t: '18:00–18:45', n: 'Ciberseguridad IA: ofensiva (phishing, deep-fakes) y defensiva', m: 'Exposición + casos' },
+        { t: '18:45–19:30', n: 'Marcos de auditoría y tipos de auditores (interno, externo, certificación)', m: 'Exposición + debate' },
+        { t: '19:30–20:00', n: 'Taller 3: matriz de riesgos y análisis competitivo (Caso Centro Lingua)', m: 'Breakout rooms' },
+      ],
+    },
+    {
+      num: 4,
+      fecha: '30 de septiembre',
+      titulo: 'Práctica auditora integral',
+      subtitulo: 'Metodologías, documentación y comunicación de resultados',
+      bloques: [
+        { t: '16:00–16:15', n: 'Repaso S3', m: 'Directo + discusión tareas' },
+        { t: '16:15–17:00', n: 'Metodología de auditoría completa: fases, documentos y evidencias', m: 'Exposición + ejemplos' },
+        { t: '17:00–17:45', n: 'Auditoría del ciclo de vida y gobernanza de IA', m: 'Exposición + casos' },
+        { t: '17:45–18:00', n: 'Pausa', m: '—' },
+        { t: '18:00–19:00', n: 'Taller integrador: plan de auditoría completo (Caso Centro Lingua)', m: 'Breakout rooms con tutoría' },
+        { t: '19:00–19:30', n: 'Documentación, comunicación triple dimensión y no conformidades', m: 'Exposición + plantillas' },
         { t: '19:30–20:00', n: 'Presentación de planes · Evaluación · Cierre', m: 'Directo' },
       ],
     },
@@ -58,8 +73,8 @@ export default function Programa() {
             Programa
           </h1>
           <p className="font-serif italic text-xl md:text-2xl max-w-2xl text-muted leading-snug">
-            12 horas online en directo, distribuidas en tres sesiones de 4 horas.
-            Sesiones grabadas y disponibles para el alumnado. Público mixto.
+            16 horas online en directo, distribuidas en cuatro sesiones de 4 horas (miércoles consecutivos).
+            Sesiones grabadas y disponibles para el alumnado. Foro activo entre sesiones.
           </p>
         </div>
       </section>
@@ -122,7 +137,7 @@ export default function Programa() {
             <h2 className="font-serif text-3xl mb-6 leading-tight">Sistema de evaluación</h2>
             <ul className="space-y-3 text-sm">
               <li className="flex justify-between border-b border-ink/15 pb-2">
-                <span>Participación en talleres</span>
+                <span>Participación en talleres y foro</span>
                 <span className="font-mono">30 %</span>
               </li>
               <li className="flex justify-between border-b border-ink/15 pb-2">
@@ -144,11 +159,12 @@ export default function Programa() {
             </p>
             <h2 className="font-serif text-3xl mb-6 leading-tight">Cómo trabajamos</h2>
             <ul className="space-y-2 text-sm leading-relaxed">
-              <li>· Sesiones en directo por videoconferencia.</li>
+              <li>· 4 sesiones en directo por videoconferencia (miércoles consecutivos).</li>
               <li>· Grabaciones disponibles para el alumnado matriculado.</li>
-              <li>· Caso transversal trabajado en breakout rooms.</li>
+              <li>· Caso transversal trabajado por entregas semanales.</li>
+              <li>· Foro activo entre sesiones para dudas y compartir avances.</li>
               <li>· Plantillas profesionales editables descargables.</li>
-              <li>· Foro asíncrono entre sesiones para resolver dudas.</li>
+              <li>· Tareas semanales breves (1-2h de trabajo autónomo).</li>
             </ul>
           </div>
         </div>

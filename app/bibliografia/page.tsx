@@ -1,6 +1,12 @@
 export default function Bibliografia() {
   const secciones = [
     {
+      titulo: 'Informes oficiales',
+      items: [
+        'Ministerio de Economía, Comercio y Empresa (2025). Estudio de Prospeción Tecnológica en Inteligencia Artificial. 10 volúmenes, 1.800+ referencias. Volumen 8 (Ciberseguridad), Volumen 9 (IA, datos y competencia), Volumen 10 (Ética, gobernanza y regulación).',
+      ],
+    },
+    {
       titulo: 'Normativa europea',
       items: [
         'Reglamento (UE) 2024/1689 del Parlamento Europeo y del Consejo, de 13 de junio de 2024, por el que se establecen normas armonizadas en materia de inteligencia artificial (AI Act).',
@@ -15,6 +21,16 @@ export default function Bibliografia() {
         'Real Decreto 311/2022 que regula el Esquema Nacional de Seguridad (ENS).',
         'Estrategia Nacional de Inteligencia Artificial (ENIA 2024).',
         'Agencia Española de Supervisión de la Inteligencia Artificial (AESIA) — guías técnicas.',
+      ],
+    },
+    {
+      titulo: 'Normativa internacional',
+      items: [
+        'Executive Order 14110 on the Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence (EEUU, 2023).',
+        'NIST AI Risk Management Framework (AI RMF 1.0), 2023.',
+        'Interim Measures for the Administration of Generative Artificial Intelligence Services (China, 2023).',
+        'Deep Synthesis Provisions (China, 2022).',
+        'Regulation on Algorithmic Recommendation of Internet Information Services (China, 2022).',
       ],
     },
     {

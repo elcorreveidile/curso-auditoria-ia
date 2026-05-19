@@ -206,7 +206,80 @@ A estos hay que añadir, en el lenguaje técnico:
 - **Incertidumbre**: gestión explícita de los márgenes de error.
 - **Control humano**: posibilidad efectiva de override.
 
-### 7.1 Definiciones operativas para el auditor
+### 7.1 NLPUE: IA como disruptor de la lógica de la utilidad
+
+El **Estudio de Prospeción Tecnológica en IA** del Ministerio de Economía, Comercio y Empresa (2025) introduce el concepto **NLPUE** (Nuevo Problema de la Lógica de la Utilidad y la Ética): la IA no solo resuelve problemas existentes, **redefine qué problemas son resolubles y quién tiene legitimidad para resolverlos**.
+
+#### ¿Qué significa esto?
+
+En economía clásica, la "lógica de la utilidad" describe cómo los agentes toman decisiones racionales para maximizar su bienestar. La IA introduce una ruptura:
+
+1. **Redefinición de problemas**: lo antes resolvía un humano, ahora lo resuelve un algoritmo. Pero no es solo un cambio de herramienta: cambia la naturaleza del problema.
+2. **Cambio de agencia**: antes el humano decidía; ahora el sistema decide por él.
+3. **Opacidad optimizada**: el algoritmo optimiza una función de utilidad, pero esa función es incomprensible para el humano.
+
+#### Ejemplos por sector
+
+| Sector | Antes (problema clásico) | Ahora (problema NLPUE) |
+|--------|-------------------------|------------------------|
+| **Salud** | "¿Cómo diagnosticar?" | "¿Debe diagnosticar una máquina o un humano? ¿Quién es responsable si se equivoca?" |
+| **Educación** | "¿Cómo evaluar?" | "¿Puede un algoritmo evaluar mejor que un profesor? ¿Perdemos algo humano si delegamos?" |
+| **Justicia** | "¿Cómo juzgar este caso?" | "¿Puede un sistema sin empatia juzgar? ¿Qué pasa con la dignidad del proceso?" |
+| **RRHH** | "¿Cómo seleccionar candidatos?" | "¿Es legítimo que un algoritmo decida carreras sin posibilidad de explicación?" |
+| **Banca** | "¿Cómo evaluar riesgo?" | "¿Puede un modelo opaco negar crédito sin que el afectado entienda por qué?" |
+
+### 7.2 Dilemas del algoritmo
+
+El estudio del Ministerio identifica **cuatro dilemas estructurales** que toda auditoría debe considerar:
+
+#### Dilema 1: Agencia humana
+
+**El problema:** ¿La IA refuerza o erosiona la autonomía humana?
+
+- **Posición refuerzo**: la IA libera al humano de tareas tediosas, le permite concentrarse en lo creativo.
+- **Posición erosión**: la IA atrofia capacidades humanas, crea dependencia, reduce el margen de decisión.
+
+**Pregunta del auditor:** ¿El sistema auditado fortalece o debilita la capacidad del humano para decidir?
+
+#### Dilema 2: Atribución de responsabilidad
+
+**El problema:** ¿Quién responde cuando falla: el algoritmo, el proveedor, el usuario, la organización?
+
+- **Gap of responsibility**: nadie asume responsabilidad porque "el sistema lo decidió".
+- **Responsabilidad difusa**: el proveedor culpa del mal uso; el usuario culpa del diseño; la organización culpa del proveedor.
+
+**Pregunta del auditor:** ¿Está claramente definido quién responde si el sistema causa daño?
+
+#### Dilema 3: Transparencia vs opacidad
+
+**El problema:** ¿Cuánta opacidad es aceptable en nombre de la eficiencia?
+
+- **Transparencia total**: imposible en sistemas complejos (redes neuronales profundas).
+- **Opacidad necesaria**: el secreto comercial protege inversión en I+D.
+- **Derecho a explicación**: RGPD art. 22, AI Act art. 86.
+
+**Pregunta del auditor:** ¿El nivel de transparencia es proporcional al riesgo del sistema?
+
+#### Dilema 4: Sesgo estructural
+
+**El problema:** ¿Cómo auditar sistemas que reflejan prejuicios sociales codificados?
+
+- **Bias in, bias out**: si los datos de entrenamiento contienen sesgos históricos, el modelo los reproduce.
+- **Sesgo de selección**: las poblaciones marginadas están infra-representadas en los datos.
+- **Sesgo de feedback**: el sistema en el mundo y cambia el mundo, reforzando estereotipos.
+
+**Pregunta del auditor:** ¿Se han medido las métricas de equidad? ¿Hay disparidades en el rendimiento entre grupos?
+
+### 7.3 Para el auditor
+
+Estos dilemas no se resuelven con cumplimiento técnico: requieren **juicio profesional contextualizado**. El auditor debe:
+
+1. **Identificar qué dilema del algoritmo está en juego** en cada sistema auditado.
+2. **Documentar cómo la organización aborda el dilema** (¿lo ha reconocido? ¿tiene una posición?).
+3. **Evaluar si la respuesta es coherente** con los valores declarados de la organización.
+4. **Proponer mecanismos de rendición de cuentas** (no solo técnicos, también organizativos).
+
+### 7.4 Definiciones operativas para el auditor
 
 | Concepto | Definición técnica | Pregunta del auditor |
 |----------|-------------------|----------------------|
@@ -285,7 +358,99 @@ Riesgos a auditar:
 
 ---
 
-## 10. Términos y definiciones (glosario S1)
+## 10. Enfoques regulatorios comparados
+
+### 10.1 UE: AI Act + enfoque basado en riesgo
+
+**Características:**
+- Reglamento (UE) 2024/1689 (AI Act), aprobado junio 2024.
+- Clasificación por niveles de riesgo: inaceptable (prohibido), alto, limitado, mínimo.
+- Obligaciones proporcionales al riesgo.
+- AESIA (Agencia Española de Supervisión de la IA) como autoridad nacional.
+- Enfoque: **precaución, derechos fundamentales, mercado único**.
+
+**Instrumentos:**
+- Prohibición de prácticas inaceptables (scoring social, reconocimiento emocional en educación/trabajo).
+- Obligaciones estrictas para sistemas de alto riesgo (educación, empleo, justicia).
+- Obligaciones de transparencia para sistemas de riesgo limitado.
+- Evaluación de conformidad previa para alto riesgo.
+
+**Para el auditor:**
+- El AI Act es el marco de obligación legal mínimo.
+- La auditoría verifica el cumplimiento artículo por artículo.
+- El enfoque es jurídico: o cumples o no cumples.
+
+### 10.2 EEUU: Executive Order 14110 (2023) + enfoque voluntario
+
+**Características:**
+- Executive Order 14110 (octubre 2023): "Safe, Secure, and Trustworthy Development and Use of Artificial Intelligence".
+- Enfoque voluntario + sectorial (no hay ley federal general de IA).
+- NIST AI RMF como marco de referencia (no obligatorio).
+- FAA (Office of AI) con mandato limitado de coordinación.
+- Enfoque: **innovación, competitividad, seguridad nacional**.
+
+**Instrumentos:**
+- NIST AI Risk Management Framework (guía voluntaria).
+- Blueprint for an AI Bill of Rights (no vinculante).
+- Órdenes ejecutivas sectoriales (defensa, sanidad, finanzas).
+- Leyes estatales dispersas (ej. Illinois BIPA sobre biometría).
+
+**Para el auditor:**
+- No hay obligación federal directa: el marco es "best practices".
+- La auditoría es más matizada: evaluar alineación con guías, no cumplimiento estricto.
+- Mayor flexibilidad, menor certeza legal.
+
+### 10.3 China: regulación específica por sector
+
+**Características:**
+- No hay ley general de IA, sino reglamentos sectoriales específicos.
+- Regulación rápida y proactiva (2022-2023: 3 reglamentos clave).
+- Enfoque: **control estatal, estabilidad social, soberanía**.
+
+**Instrumentos clave:**
+- **Deep Synthesis Provisions (2022)**: regula deep-fakes y contenido sintético.
+- **Regulation on Algorithmic Recommendation (2022)**: algoritmos de recomendación (tipo TikTok).
+- **Interim Measures for Generative AI Services (2023)**: IA generativa tipo LLMs.
+- Requisitos: licencias estatales, contenido alineado con valores socialistas, identificación obligatoria de sintético.
+
+**Para el auditor:**
+- Altamente prescriptivo: detalles técnicos muy específicos.
+- No hay espacio para interpretación: cumples o estás fuera del mercado chino.
+- Difícil cumplimiento para empresas extranjeras (requiere servidores en China, alianzas locales).
+
+### 10.4 Comparativa rápida
+
+| Aspecto | UE | EEUU | China |
+|---------|----|----|-------|
+| **Enfoque** | Basado en riesgo, legal | Voluntario, mercado | Sectorial, estatal |
+| **Instrumento principal** | AI Act (ley) | NIST AI RMF (guía) | Reglamentos sectoriales |
+| **Autoridad** | AESIA | No hay (FAA coordinación) | CAC, Cyberspace Administration |
+| **Sanciones** | Hasta 7 % facturación global | No hay federales | Multas + cierre de servicio |
+| **Prioridad** | Derechos fundamentales | Innovación + seguridad | Estabilidad social |
+| **Velocidad** | Lenta (consenso UE) | Media | Rápida (gobierno decide) |
+
+### 10.5 Para el auditor: organizaciones multinacionales
+
+Una organización que opera en múltiples jurisdicciones debe navegar **tres lógicas distintas**. El auditor debe:
+
+1. **Mapear sistemas por jurisdicción**: ¿qué sistemas operan en qué países?
+2. **Identificar conflictos normativos**: ¿sistema cumple EEUU pero no UE?
+3. **Proponer estrategias de cumplimiento multinivel**:
+   - Enfoque "máximo común denominador": cumplir el estándar más exigente.
+   - Enfoque "local compliance": adaptar sistemas por país.
+   - Enfoque "ring-fencing": separar sistemas por jurisdicción.
+
+**Ejemplo de conflicto:**
+- Sistema de selección de RRHH con IA en una multinacional:
+  - **UE**: alto riesgo (Anexo III AI Act) → evaluación de conformidad, FRIA obligatoria.
+  - **EEUU**: no hay regulación federal específica → voluntario.
+  - **China**: si hay operaciones en China, puede requerir licencia estatal y algoritmos transparentes.
+
+**El auditor informa:** "El sistema cumple las guías EEUU (NIST AI RMF), pero no cumple el AI Act europeo. Recomendación: o bien restringir uso a EEUU, o bien actualizar a cumplimiento UE para uso global."
+
+---
+
+## 11. Términos y definiciones (glosario S1)
 
 | Término | Definición |
 |---------|------------|

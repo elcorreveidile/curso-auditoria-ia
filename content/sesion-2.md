@@ -171,6 +171,62 @@ Para modelos con **riesgo sistémico** (umbral: 10²⁵ FLOPs de cómputo, presu
 - Reporte de incidentes graves.
 - Ciberseguridad reforzada.
 
+### 3.3 IA generativa: categoría específica de riesgos
+
+El **Estudio del Ministerio (Vol. 7)** identifica a la IA generativa como una **categoría regulatoria propia**, distinta de la IA clásica. No es "un tipo más de IA": requiere un tratamiento específico.
+
+#### 3.3.1 ¿Qué hace única a la IA generativa?
+
+| Característica | IA clásica | IA generativa |
+|----------------|-----------|--------------|
+| **Salida** | Predicción (clase, número, categoría) | Creación (texto, imagen, audio, código) |
+| **Entrenamiento** | Tarea específica | Generalista (lenguaje, visión, multimodal) |
+| **Riesgo principal** | Error de predicción | Alucinación, contenido falso plausible |
+| **Copyright** | No aplicable (generalmente) | Crítico: datos de entrenamiento |
+| **Deep-fakes** | No aplicable | Riesgo central |
+| **Explicabilidad** | Técnicas existentes (LIME, SHAP) | Más difícil (modelos masivos) |
+
+#### 3.3.2 Riesgos específicos identificados en el estudio
+
+| Riesgo | Descripción | Control típico | Pregunta del auditor |
+|--------|-------------|----------------|----------------------|
+| **Alucinaciones** | Generación de información plausible pero falsa | Filtros de hechos, supervisión humana, verificación cruzada, límites de temperatura | ¿Hay filtros? ¿Supervisión humana en decisiones de alto impacto? |
+| **Copyright** | Entrenamiento con contenido protegido sin licencia | Política de origen de datos, cláusulas contractuales, opt-out de creadores | ¿Está documentado el origen de datos de entrenamiento? ¿Hay política de derechos de autor? |
+| **Deep-fakes** | Generación de sintético indistinguible de real | Marcas de agua obligatorias (AI Act art. 50), detección de sintético | ¿Se marca el contenido como IA-generado? ¿Hay sistema de detección? |
+| **Fuga de información** | El modelo memoriza y reproduce datos sensibles | Differential privacy, tests de membresía, datos de entrenamiento anonimizados | ¿Se han hecho tests de fuga? ¿Hay garantías de privacidad? |
+| **Prompt injection** | Manipulación del modelo mediante inputs maliciosos | Sandboxing, filtros de entrada, red-teaming continuo | ¿Hay protocolos contra prompt injection? ¿Se hace red-teaming? |
+| **Sesgo de entrenamiento** | Refleja sesgos del corpus (inglés, occidente, masculino) | Diversificación de datos, debiasing, post-procesamiento | ¿Se han medido sesgos demográficos? ¿Hay plan de mitigación? |
+
+#### 3.3.3 Obligaciones específicas del AI Act para GPAI
+
+El AI Act (Capítulo V) establece obligaciones especiales para **modelos de uso general purpose AI (GPAI)**:
+
+**Transparencia obligatoria (art. 53):**
+- Documentación técnica del modelo.
+- Política de cumplimiento del derecho de autor.
+- Resumen detallado del contenido usado para entrenamiento (copyright, fuentes).
+- Información sobre el cómputo usado (FLOPs).
+
+**Para modelos con riesgo sistémico (≥10²⁵ FLOPs):**
+- Evaluación del modelo (incluyendo red-teaming adversarial sistemático).
+- Evaluación y mitigación de riesgos sistémicos (ej. influencia en procesos electorales, polarización).
+- Reporte obligatorio de incidentes graves a la Comisión Europea.
+- Ciberseguridad reforzada (garantías de estado del arte).
+- Modelo de evaluación por la propia Comisión UE.
+
+#### 3.3.4 Para el auditor
+
+**Preguntas clave:**
+1. ¿La organización usa modelos GPAI (ChatGPT, Claude, Gemini, Llama) o solo modelos de tarea específica?
+2. ¿Hay un marco de gobernanza de prompts? (¿quién aprueba los prompts en producción?)
+3. ¿Se informa a los usuarios finales que están interactuando con IA? (AI Act art. 50)
+4. ¿Se marca el contenido sintético como "generado por IA"?
+5. ¿Hay pruebas de alucinaciones? ¿Cómo se mitigan?
+6. ¿Está documentada la política de derechos de autor sobre datos de entrenamiento?
+
+**Ejemplo de hallazgo de auditoría:**
+> "El chatbot de atención al cliente usa GPT-4 sin filtros de alucinaciones ni supervisión humana. Se han detectado 3 casos en los que el sistema inventó condiciones de garantía no existentes. **Incumplimiento AI Act art. 16 (robustez y precisión). Recomendación: implementar verificación cruzada con base de conocimientos y supervisión humana en respuestas de alto impacto comercial.**"
+
 #### Sanciones
 - Hasta **35 M€ o 7 % facturación global** por prácticas prohibidas.
 - Hasta **15 M€ o 3 %** por incumplimiento de otras obligaciones.
