@@ -28,25 +28,31 @@ export default function Acceso() {
         <h2 className="font-serif text-3xl mb-8 leading-tight">
           Contenido teórico completo
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {[
             {
               href: '/materiales/sesion-1/',
               num: 1,
-              titulo: 'Fundamentos',
-              desc: 'Industria 5.0 · Ciclo de vida · Principios éticos · Explicabilidad',
+              titulo: 'Disrupción algorítmica y nueva lógica de la utilidad',
+              desc: 'NLPUE · 4 dilemas del algoritmo · Enfoques regulatorios comparados (UE/EEUU/China)',
             },
             {
               href: '/materiales/sesion-2/',
               num: 2,
-              titulo: 'Riesgos y normas',
-              desc: 'AI Act · ISO 42001 · ISO 23894 · Marcos de auditoría',
+              titulo: 'Marco regulatorio y sistemas de gestión',
+              desc: 'AI Act · ISO 42001 · ISO 23894 · NIST AI RMF · Ciclos de vida',
             },
             {
               href: '/materiales/sesion-3/',
               num: 3,
-              titulo: 'Práctica auditora',
-              desc: 'Gobernanza · Ciclo · Documentación · Comunicación',
+              titulo: 'Riesgos, competitividad y ciberseguridad',
+              desc: 'IA generativa · Concentración · Dependencia de proveedores · Ciberseguridad',
+            },
+            {
+              href: '/materiales/sesion-4/',
+              num: 4,
+              titulo: 'Práctica auditora integral',
+              desc: 'Metodología completa · Gobernanza · Comunicación triple dimensión',
             },
           ].map((s) => (
             <Link
